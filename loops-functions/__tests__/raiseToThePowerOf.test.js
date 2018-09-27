@@ -1,4 +1,4 @@
-xdescribe('Raise all elements in array to the power of tests', () => {
+describe('Raise all elements in array to the power of tests', () => {
 	let raiseToThePowerOf = require('../exercises/raiseToThePowerOf');
 	console.log(typeof raiseToThePowerOf);
 	it('should raise all elements in array to the power of the second argument', () => {

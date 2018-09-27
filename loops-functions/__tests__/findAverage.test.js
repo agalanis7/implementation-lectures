@@ -1,4 +1,4 @@
-xdescribe('Find average value tests', () => {
+describe('Find average value tests', () => {
 	let findAverage = require('../exercises/findAverage');
 	it('should return the average value', () => {
 		expect(findAverage([2,2,2,2])).toBe(2);

@@ -1,6 +1,6 @@
-xdescribe('find all even numbers tests', () => {
+describe('find all even numbers tests', () => {
 	let findAllEven = require('../exercises/findAllEven');
-	
+
 	it('should filter even numbers from array', () => {
 		expect(findAllEven([1,2,4,3])).toEqual([2,4]);
 	})

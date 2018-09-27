@@ -1,4 +1,4 @@
-xdescribe('Find smallest number tests', () => {
+describe('Find smallest number tests', () => {
 	let findSmallest = require('../exercises/findSmallest');
 	it('should find the smallest number in an array', () => {
 		expect(findSmallest([-1000, 3, 0 ,5])).toBe(-1000);
